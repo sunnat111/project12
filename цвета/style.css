@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    transition: all 500ms;
+}
+.first, .second{
+    height: 200px;
+    width: 70px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background: rgb(233, 233, 233);
+    margin-top: 50px;
+    margin-left: 40px;
+    padding: 10px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.first__one{
+    background-color: black;
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+.first__two{
+    background-color: red;
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+.first__three{
+    background-color: blue;
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+.first__four{
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+}
+.second__one{
+    background-color: black;
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+.second__two{
+    background-color: red;
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+.second__three{
+    background-color: blue;
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+.second__four{
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+}
+.box{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    width: 1000px;
+    margin-top: -300px;
+    margin-left: 200px;
+}
+.box__item, .box__items, .box__itemth, .box__itemfo, .box__itemfi, .box__itemsi{
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 150px;
+    height: 150px;
+    margin-right: 10px;
+    transition: all 500ms;
+}
